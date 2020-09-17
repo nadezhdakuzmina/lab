@@ -1,0 +1,21 @@
+//2.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b, c;
+cin >> a >> b >> c;
+    cout << "AC="<< c-a <<"BC=" << c-b << "Sum=" <<(c-a)+(c-b);
+ return 0;
+}
+
+//3.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b, c, ;
+cin >> a >> b >> c;
+    cout << "AC*BC=" << abs((c-a)*(c-b));
+ return 0;
+}
