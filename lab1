@@ -1,0 +1,47 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{  int a, b;
+cin >> a >> b;
+    cout << "S=" << a*b << "P=" << (a+b)/2;
+ return 0;
+}
+
+#include <iostream>
+#define P 3.14
+using namespace std;
+int main()
+{  int d;
+cin >> d;
+    cout << "L=" << P*d ;
+ return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{  int a, b;
+cin >> a >> b;
+    cout << (a+b)/2;
+ return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{  int a, b;
+cin >> a >> b;
+    cout << a+b << a-b << a*b << (a*a)/(b*b);
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b;
+cin >> a >> b;
+    cout << a+b << a-b << a*b << abs(a)/abs(b);
+ return 0;
+}
