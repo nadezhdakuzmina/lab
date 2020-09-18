@@ -1,4 +1,4 @@
-
+//4.1
 #include <iostream>
 using namespace std;
 int main()
@@ -7,7 +7,7 @@ cin >> a >> b;
     cout << "S=" << a*b << "P=" << (a+b)/2;
  return 0;
 }
-
+//4.2
 #include <iostream>
 #define P 3.14
 using namespace std;
@@ -17,7 +17,7 @@ cin >> d;
     cout << "L=" << P*d ;
  return 0;
 }
-
+//4.3
 #include <iostream>
 using namespace std;
 int main()
@@ -26,7 +26,7 @@ cin >> a >> b;
     cout << (a+b)/2;
  return 0;
 }
-
+//4.4
 #include <iostream>
 using namespace std;
 int main()
@@ -35,7 +35,7 @@ cin >> a >> b;
     cout << a+b << a-b << a*b << (a*a)/(b*b);
  return 0;
 }
-
+//4.5
 #include <iostream>
 #include <cmath>
 using namespace std;
