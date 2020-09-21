@@ -4,9 +4,74 @@ using namespace std;
 int main()
 {  int a, b, c, ;
 cin >> a >> b;
-c := a;
-a := b;
-b := c;
+c = a;
+a = b;
+b = c;
     cout << a << b;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b, c, d;
+cin >> a >> b;
+d = b;
+b = a;
+a = c;
+c = d;
+    cout << a << b << c;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b, c, d;
+cin >> a >> b;
+d = a;
+a = b;
+b = c;
+c = d;
+    cout << a << b << c;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int x, y;
+cout << "введите значение x";
+cin >> x;
+y = 3*x^6-6*x^2-7;
+    cout << "y=", y;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int x, y;
+cout << "введите значение x";
+cin >> x;
+y = 4*(x-3)^6-7*(x-3)^3+2;
+    cout << "y=", y;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int A y;
+cout << "введите значение A";
+cin >> A;
+y = pow(A, 5);
+A=y*A*A*A;
+    cout <<x;
  return 0;
 }
