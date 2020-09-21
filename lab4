@@ -1,38 +1,46 @@
 //4.1
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
-{  int a, b;
-cin >> a >> b;
-    cout << "S=" << a*b << "P=" << (a+b)/2;
+{  int a, b; // создаём переменные
+cout << "введите длину и ширину"; // просим пользователя задать переменные
+cin >> a >> b; // пользователь задаёт переменные
+    cout << "S=" << a*b << "P=" << (a+b)/2; //выводим результат
  return 0;
 }
 //4.2
 #include <iostream>
-#define P 3.14
+#include <cmath>
+#define P 3.14 // создаём константу
 using namespace std;
 int main()
-{  int d;
-cin >> d;
-    cout << "L=" << P*d ;
+{  int d; // создаём переменные
+cout << "введите диаметр"; // просим пользователя задать переменные
+cin >> d;  // пользователь задаёт переменные
+    cout << "L=" << P*d ;  //выводим результат
  return 0;
 }
 //4.3
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {  int a, b;
-cin >> a >> b;
-    cout << (a+b)/2;
+cout << "введите значения";
+cin >> a >> b;  // пользователь задаёт переменные
+    cout << (a+b)/2;  //выводим результат
  return 0;
 }
 //4.4
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {  int a, b;
-cin >> a >> b;
-    cout << a+b << a-b << a*b << (a*a)/(b*b);
+cout << "введите значения";
+cin >> a >> b;  // пользователь задаёт переменные
+    cout << a+b << a-b << a*b << (a*a)/(b*b);  //выводим результат
  return 0;
 }
 //4.5
@@ -41,7 +49,8 @@ cin >> a >> b;
 using namespace std;
 int main()
 {  int a, b;
-cin >> a >> b;
-    cout << a+b << a-b << a*b << abs(a)/abs(b);
+cout << "введите значения";
+cin >> a >> b;  // пользователь задаёт переменные
+    cout << a+b << a-b << a*b << abs(a)/abs(b);  //выводим результат
  return 0;
 }
