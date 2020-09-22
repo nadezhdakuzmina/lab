@@ -1,3 +1,14 @@
+//1.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int x1, y1, x2, y2;
+cin >> x1 >> y1 >> x2 >> y2;
+    cout << sqow(pow((x2-x1) 2) + pow((y2-y1) 2)) << a*b << "P=" << (a+b)/2;
+ return 0;
+}
+
 //2.
 #include <iostream>
 #include <cmath>
@@ -19,3 +30,26 @@ cin >> a >> b >> c;
     cout << "AC*BC=" << abs((c-a)*(c-b));
  return 0;
 }
+
+//4.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int a, b, c, ;
+cin >> x1 >> y1 >> x2 >> y2;
+    cout << "S=" << abs((x2-x1)*(y2-y1)) << "P=" << abs(2*((x1-x2)+(y2-y1));
+ return 0;
+}
+//5. 
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int x1, x2, x3, y1, y2, y3 ;
+cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
+    cout << "S=" <<      <<"P=" << );
+ return 0;
+}
+
+
