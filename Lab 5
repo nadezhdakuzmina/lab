@@ -5,6 +5,7 @@
 using namespace std;
 int main()
 {  int x1, y1, x2, y2;
+cout << "введите значения";
 cin >> x1 >> y1 >> x2 >> y2;
     cout << sqrt(pow((x2-x1), 2) + pow((y2-y1), 2)) << " " ;
  return 0;
@@ -16,6 +17,7 @@ cin >> x1 >> y1 >> x2 >> y2;
 using namespace std;
 int main()
 {  int a, b, c;
+cout << "введите значения";
 cin >> a >> b >> c;
     cout << " AC= "<< abs(c-a) <<" BC= " << abs(c-b) << " Sum= " <<abs(abs(c-a)+abs(c-b));
  return 0;
@@ -27,6 +29,7 @@ cin >> a >> b >> c;
 using namespace std;
 int main()
 {  int a, b, c ;
+cout << "введите значения";
 cin >> a >> b >> c;
     cout << "AC*BC=" << abs((c-a)*(c-b));
  return 0;
@@ -38,6 +41,7 @@ cin >> a >> b >> c;
 using namespace std;
 int main()
 {  int x1, y1, x2, y2 ;
+cout << "введите значения";
 cin >> x1 >> y1 >> x2 >> y2;
     cout << " S= " << abs((x2-x1)*(y2-y1)) << " P= " << abs(2*(abs(x1-x2)+abs(y2-y1)));
  return 0;
@@ -49,6 +53,7 @@ cin >> x1 >> y1 >> x2 >> y2;
 using namespace std;
 int main()
 {  double x1, x2, x3, y1, y2, y3, a, b, c, p, s;
+cout << "введите значения";
 cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
     a = sqrt(pow((x2 - x1),2) + pow((y2 - y1),2));
     b = sqrt(pow((x3 - x2),2) + pow((y3 - y2),2));
