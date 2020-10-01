@@ -3,41 +3,41 @@
 using namespace std;
 int main()
 {  int x;
-fload y;
-const fload P=3.14;
-cout << "введите значение x";
+float y;
+const float P=3.14;
+cout << "введите угол А";
 cin >> x;
 y = x*P/180;
-    cout << y, " радиан";
+    cout << y << " радиан";
  return 0;
 }
+
 
 #include <iostream>
 #include <cmath>
 using namespace std;
 int main()
 {  int x;
-fload y;
-const fload P=3.14;
-cout << "введите значение x";
+float y;
+const float P=3.14;
+cout << "введите угол А";
 cin >> x;
 y = x*180/P;
-    cout << y, " радиан";
+    cout << y << " градусов";
  return 0;
 }
-
 
 #include <iostream>
 #include <cmath>
 using namespace std;
 int main()
 {  int x, A, y;
-fload one;
-cout << "введите значение x, A, y";
+float one;
+cout << "введите значения x, A, y";
 cin >> x >> A >> y;
 one = A/x;
 y=y*one;
-    cout << one << y;
+    cout << "За 1 " << one << " За y " << y;
  return 0;
 }
 
@@ -46,9 +46,34 @@ y=y*one;
 using namespace std;
 int main()
 {  int V1, V2, S, T;
-cout << "введите значение V1, V2, T";
+cout << "введите значения V1, V2, T";
 cin >> V1 >> V2 >> T;
 S=(V1+V2)*T;
     cout << S;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{ const int A=2, B=8;
+int x;
+x=-B/A;
+    cout << "x=" << x;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{ 
+int x, y, A1, A2, B1, B2, C1, C2;
+cout << "Введите значения A1, A2, B1, B2, C1, C2";
+cin >> A1 >> A >> B1 >> B2 >> C1 >> C2;
+x=(y*(B1-B2)-C1-C2)/(A1-A2);
+y=(C1-A1*x)/B2
+    cout << "x=" << x <<" y=" << y;
  return 0;
 }
