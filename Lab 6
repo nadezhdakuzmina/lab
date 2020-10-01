@@ -67,11 +67,24 @@ y = 4*(x-3)^6-7*(x-3)^3+2;
 #include <cmath>
 using namespace std;
 int main()
-{  int A y;
+{  int A, y;
 cout << "введите значение A";
 cin >> A;
 y = pow(A, 5);
 A=y*A*A*A;
-    cout <<x;
+    cout <<A;
+ return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{  int A, y, x=3;
+cout << "введите значение A";
+cin >> A;
+y = pow(A, x);
+A=y*y*y*y*y*1;
+    cout <<A;
  return 0;
 }
