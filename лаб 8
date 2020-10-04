@@ -1,1 +1,66 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int x, y;
+    cout << "введите число байт";
+    cin >> x;
+    y=x/pow(2 , 10);
+    cout << y;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, B, y;
+    cout << "введите A B";
+    cin >> A >> B;
+    y=A/B;
+    cout << y;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, B, y;
+    cout << "введите A B";
+    cin >> A >> B;
+    y=A-A/B*B;
+    cout << y;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, B, y;
+    cout << "введите число";
+    cin >> A ;
+    y=A%10;
+    B=A/10;
+    cout << y << B;
+    return 0;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, B, y;
+    cout << "введите число";
+    cin >> A ;
+    y=A%100;
+    B=A/100;
+    cout << y << B;
+    return 0;
+}
 
