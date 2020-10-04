@@ -68,12 +68,13 @@ x=-B/A;
 #include <cmath>
 using namespace std;
 int main()
-{ 
-int x, y, A1, A2, B1, B2, C1, C2;
-cout << "Введите значения A1, A2, B1, B2, C1, C2";
-cin >> A1 >> A >> B1 >> B2 >> C1 >> C2;
-x=(y*(B1-B2)-C1-C2)/(A1-A2);
-y=(C1-A1*x)/B2
-    cout << "x=" << x <<" y=" << y;
- return 0;
+{
+    float a1, a2, b1, b2, c1, c2;
+    float x, y;
+    cout << "введите последовательно значения для системы уравнений";
+    cin >> a1 >> b1 >>c1 >> a2 >> b2 >> c2;
+    x=(c1*a2-c2*a1)/(b1*a2-b2*a1);
+    y=(c1-a1*x)/b1;
+    cout << "x=" << x << " y=" << y;
+    return 0;
 }
