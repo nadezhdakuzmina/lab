@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, y;
+    cout << "введите N";
+    cin >> A ;
+    y=A%60;
+    cout << y;
+    return 0;
+}
+
