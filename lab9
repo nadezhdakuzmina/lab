@@ -3,11 +3,66 @@
 using namespace std;
 int main()
 {
-    int A, y;
+    int N, y;
     cout << "введите N";
-    cin >> A ;
-    y=A%60;
+    cin >> N ;
+    y=N%60;
     cout << y;
     return 0;
 }
 
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int K, y;
+    cout << "введите K";
+    cin >> K ;
+    y=K%7;
+    cout << y;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int N, y, K;
+    cout << "введите N, K";
+    cin >> N >> K;
+    y=K%7+(N-1);
+    cout << y;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, B, C, y, x;
+    cout << "введите A, B, C";
+    cin >> A >> B >> C;
+    y=(A/C)*(B/C);
+    x=A*B-C*C*y;
+    cout << "кол-во квадратов="<< y << " Оставшаяся площадь="<< x;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int A, x;
+    cout << "введите год";
+    cin >> A;
+    if (A%100 != 0) {
+        x=A/100+1;
+    } else
+        x=A/100;
+        cout << x << '\n' ;
+    return 0;
+}
