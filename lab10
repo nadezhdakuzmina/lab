@@ -1,0 +1,108 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int A, B;
+    cout << "введите A, B";
+    cin >> A >> B;
+    if (A>2 and B<=3) {
+        N=true;
+    } else
+        N=false;
+        cout << N << '\n' ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int A, B, C;
+    cout << "введите A, B, C";
+    cin >> A >> B >> C;
+    if (A<B and B<C) {
+        N=true;
+    } else
+        N=false;
+        cout << N << '\n' ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int A;
+    cout << "введите число";
+    cin >> A ;
+    if (A%2!=0 or A/10<1) {
+        N=false;
+    } else
+        N=true;
+        cout << N << '\n' ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int A, x, y, z;
+    cout << "введите число";
+    cin >> A ;
+    x=A/100;
+    y=A%100/10;
+    z=A%10;
+    if ((x>y and y>z) or (x<y and y<z)) {
+        N=true;
+    } else
+        N=false;
+        cout << N << '\n' ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int A, x, y, z, w;
+    cout << "введите число";
+    cin >> A ;
+    x=A/1000;
+    y=A%1000/100;
+    z=A%100/10;
+    w=A%10;
+    if (x==w and y==z) {
+        N=true;
+    } else
+        N=false;
+        cout << N << '\n' ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    bool N;
+    int a, b, c;
+    cout << "введите a, b, c";
+    cin >> a >> b >> c ;
+    if ((c*c == sqrt( (a*a+b*b) 2)) or  (a*a == sqrt( (c*c+b*b) 2)) or  (b*b  == sqrt( (a*a+c*c) 2))) {
+        N=true;
+    } else
+        N=false;
+        cout << N << '\n' ;
+    return 0;
+}
