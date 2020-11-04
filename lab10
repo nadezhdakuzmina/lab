@@ -106,3 +106,16 @@ int main()
         cout << N << '\n' ;
     return 0;
 }
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int a, b, c;
+    bool s;
+    cout << "введите a, b, c";
+    cin >> a >> b >> c ;
+    s = (a+b>c) && (b+c>a) && (c+a>b);
+    
+        cout << s  ;
+    return 0;
