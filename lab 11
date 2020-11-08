@@ -14,6 +14,24 @@ int main()
         cout << N << '\n' ;
     return 0;
 }
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int a, b, s;
+    cout << "введите a, b";
+    cin >> a >> b ;
+    if (a>b) || (b>a){      
+            s=a;
+            a=b;
+            b=s;
+        } else {
+        a=0;
+        b=0;}
+        cout << a << b  ;
+    return 0;
+}
 
 #include <iostream>
 #include <cmath>
@@ -28,6 +46,113 @@ int main()
             s=a+b;
         } else s=a+c;
     } else s=b+c;
+        cout << s  ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int ax, ay, bx, by, cx, cy, S;
+    cout << "введите ax, ay, bx, by, cx, cy";
+    cin >> ax >> ay >> bx >> by >> cx >> cy;
+    if ((sqrt( ((ax-bx)^2+(ay-by)^2) 2)) > ((sqrt( ((ax-cx)^2+(ay-cy)^2) 2))  {
+        S=sqrt( ((ax-bx)^2+(ay-by)^2) 2)
+        cout << bx << by << S;
+    } 
+        else {
+        S=sqrt( ((ax-cx)^2+(ay-cy)^2) 2);
+        cout << bx << by << S;
+        }
+    return 0;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int x, y, s;
+    cout << "введите x, y";
+    cin >> x >> y ;
+    if (x>0) 
+        if (y>0) 
+            s=1;
+        else
+            s=4;
+    else if (y>0) 
+            s=2;
+         else 
+            s=3;
+        cout << s  ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+#include <locale>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    int x;
+    string s;
+    string s1= " положительное ";
+    string s2= " отрицательное ";
+    string s3= " нулевое ";
+    string t = " чётное ";
+    string t1= " нечётное ";
+    string r = " число ";
+    cout << "введите число";
+    cin >> x;
+    if (x>0)
+        if (x % 2 ==0)
+            s= s1 + t + r ;
+        else
+            s= s1 + t1 + r ;
+    else if (x<0)
+            if (x % 2 ==0)
+                s= s2 + t + r ;
+            else
+                s= s2 + t1 + r ;
+            else
+                s= s3 + r ;
+        cout << s  ;
+    return 0;
+}
+#include <iostream>
+#include <cmath>
+#include <locale>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    int x;
+    string s;
+    string s1= " однозначное ";
+    string s2= " двузначное ";
+    string s3= " трёхзначное ";
+    string t = " чётное ";
+    string t1= " нечётное ";
+    string r = " число ";
+    cout << "введите число";
+    cin >> x;
+    if (x/100>0)
+        if (x % 2 ==0)
+            s= s3 + t + r ;
+        else
+            s= s3 + t1 + r ;
+    else if (x/10>0)
+            if (x % 2 ==0)
+                s= s2 + t + r ;
+            else
+                s= s2 + t1 + r ;
+            else
+                if (x % 2 ==0)
+                    s= s1 + t + r ;
+                else
+                    s= s1 + t1 + r ;
         cout << s  ;
     return 0;
 }
