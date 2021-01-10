@@ -1,0 +1,95 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int a;
+    float b;
+    cout << "введите цену за 1 кг";
+    cin >> a ;
+    b=0.1;
+    while (b<1) {
+          cout << b*a << " " ;
+          b=b+0.1;
+    } 
+       cout << a  ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int N;
+    float b, c;
+    cout << "введите N";
+    cin >> N ;
+    c=1;
+    b=1.1;
+    while (N>0) {
+        c=b*c;
+        b=b+0.1;
+        N=N-1;
+        
+    }
+       cout << c  ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int N;
+    float b, c;
+    cout << "введите N";
+    cin >> N ;
+    c=1;
+    b=0;
+    while (c<=N) {
+        b=b+2*c-1;
+        cout << "+"<<2*c-1   ;
+        c++;
+        
+    }
+    cout <<"=" <<b;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int N, A, b;
+    cout << "введите N, A";
+    cin >> N >> A;
+    b=1;
+    while (N>0) {
+        b=b+pow(A,N);
+        N=N-1;
+        
+    }
+    cout <<b ;
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int N, A, b;
+    cout << "введите N, A";
+    cin >> N >> A;
+    b=1;
+    while (N>0) {
+        b=b+pow(-A,N);
+        N=N-1;
+        
+    }
+    cout <<b ;
+    return 0;
+}
