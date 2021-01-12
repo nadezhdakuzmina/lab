@@ -1,0 +1,83 @@
+#include <iostream>
+#include <cmath>
+#include <vector>
+using namespace std;
+
+
+int main()
+{
+    int N, K, L;
+    float c=0;
+    cout << "введите N, K, L";
+    cin >> N >> K >> L ;
+    cout << "введите массив";
+    vector <int> a(N);
+    for (int i = 0; i < N; i++) {
+        cin >> a[i];
+    }
+    for (int i = K; i <=L; i++) {
+        c=c+a[i];
+
+    }
+
+        cout << c/(L-K+1) ;
+
+    
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    int N, c, d=0;
+    cout << "введите N";
+    cin >> N  ;
+    cout << "введите массив";
+    vector <int> a(N);
+    for (int i = 0; i < N; i++) {
+        cin >> a[i];
+    }
+    c=a[1]-a[0];
+    for (int i = 1; i <N-1; i++) {
+        if ((a[i+1]-a[i])==c)
+            d++;
+
+    }
+if (d==(N-2))
+        cout << c ;
+else
+    cout << 0 ;
+
+    return 0;
+}
+
+#include <iostream>
+#include <cmath>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    int N, c;
+    cout << "введите N";
+    cin >> N  ;
+    cout << "введите массив";
+    vector <int> a(N);
+    for (int i = 1; i <= N; i++) {
+        cin >> a[i];
+    }
+    c=a[2];
+    for (int i = 4; i <=N; i=i+2) {
+        if (a[i]<c)
+            c=a[i];
+
+    }
+
+    cout << c ;
+
+    return 0;
+}
